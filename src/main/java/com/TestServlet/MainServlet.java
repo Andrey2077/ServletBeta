@@ -16,9 +16,16 @@ public class MainServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
         PrintWriter printWriter = resp.getWriter();
-        printWriter.write("Change!");
+        printWriter.write("Change123!");
         printWriter.close();
 
+
+        Object object;
+
     }
+
+
+
+
 }
 
